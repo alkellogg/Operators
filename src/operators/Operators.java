@@ -61,7 +61,7 @@ public class Operators {
 
         System.out.println("result = " + result);
     }
-    
+
     //PART 1
     private static void incrementAndModulus() {
         // I predict that the code will print the answer but the two answers will be different
@@ -79,7 +79,7 @@ public class Operators {
         System.out.println("m = " + m);
         System.out.println("i = " + i);
     }
-    
+
     //PART 2
     public static void compoundAssignmentTest() {
 
@@ -97,8 +97,8 @@ public class Operators {
 
         System.out.println(result);
 
-       // result = result / 2; // result is now 2
-        result/= 2;
+        // result = result / 2; // result is now 2
+        result /= 2;
 
         System.out.println(result);
 
@@ -111,33 +111,29 @@ public class Operators {
         System.out.println(result);
 
     }
-    
+
     //PART 3
+    // public static void toggleValueTest (){
+    public static boolean toggleValue(boolean myValue) {
+        if (bValue == true) {
+            bValue = false;
+        } else {
+            bValue = true;
+
+        }
+    }
     
-    public static void toggleValueTest (){
-        
-        
+    public static void toggleValueTest () {
+        void toggleValue(bValue);
+        system.out.printlin("bValue = " + bValue);
 
          //write your code here
-
-          //declare a boolean variable called "bValue", and assign the value "false" to it
-
-          //print out the value of "bValue"
-
-
-          //call the toggleValue method using "bValue" as the parameter, and assign the result back into "bValue" 
-
-          //print out the value of "bValue" (note: this should now be "true")
-
-
-          //again call the toggleValue method using "bValue" as the parameter, and assign the result back into "bValue" 
-
-          //print out the value of "bValue" (note: this should now be "false")
-
-     }
-
-
-
-    
+        //declare a boolean variable called "bValue", and assign the value "false" to it
+        //print out the value of "bValue"
+        //call the toggleValue method using "bValue" as the parameter, and assign the result back into "bValue" 
+        //print out the value of "bValue" (note: this should now be "true")
+        //again call the toggleValue method using "bValue" as the parameter, and assign the result back into "bValue" 
+        //print out the value of "bValue" (note: this should now be "false")
+    }
 
 }
